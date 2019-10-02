@@ -1,3 +1,18 @@
 permalink: pretty
 
 theme: jekyll_patternbot
+patternbot:
+  title: "Yu-Han Chang's Portfolio"
+  description: |
+    My personal portfolio website for find a job or placement.
+  rationales:
+    typefaces.primary: |
+      Acme is a display typeface inspired by the visual language classic of cartoons and comics. It is sort of representing motion and animation. It is mainly used for headings.
+    typefaces.secondary: |
+      No specific reasons for picking this font. I just find it looks harmonize with Acme. This font is mainly used for body copy.
+    colors.primary: |
+      The primary color represents my personalities. I'm a calm and trustable person.
+    colors.secondary: |
+      By using the colour theory, I want the colours to look harmonize so I'm going for split complementary. Therefore, the second colour is orange.
+    colors.accent: |
+      The third colour of the split complementary is orange-red. As it stated, it is only going be used when something is hovered. In addition, the text will be black or white.
