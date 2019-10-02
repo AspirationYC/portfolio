@@ -4,7 +4,7 @@ theme: jekyll_patternbot
 patternbot:
   title: "Yu-Han Chang's Portfolio"
   description: |
-    My personal portfolio website for find a job or placement.
+    My personal portfolio website for finding a job or placement.
   font_url: "https://fonts.googleapis.com/css?family=Acme|Raleway"
   rationales:
     typefaces.primary: |
