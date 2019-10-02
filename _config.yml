@@ -5,6 +5,7 @@ patternbot:
   title: "Yu-Han Chang's Portfolio"
   description: |
     My personal portfolio website for find a job or placement.
+  font_url: "https://fonts.googleapis.com/css?family=Acme|Raleway"
   rationales:
     typefaces.primary: |
       Acme is a display typeface inspired by the visual language classic of cartoons and comics. It is sort of representing motion and animation. It is mainly used for headings.
