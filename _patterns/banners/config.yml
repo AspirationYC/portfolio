@@ -1,0 +1,8 @@
+title: "Banners"
+description: |
+  Banners required on the home page and each artworks. It should be located underneath the header.
+patterns:
+  broadcast-package-banner:
+    title: "Broadcast Package's banner"
+    description: |
+      The banner for Broadcast Package project.

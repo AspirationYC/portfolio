@@ -1,0 +1,9 @@
+title: "Sections"
+description: |
+  Some content that can be put into the homepage or artwork pages.
+
+patterns:
+  about-me:
+    title: "About me & contact-info"
+    description: |
+      It is only required on the homepage.
