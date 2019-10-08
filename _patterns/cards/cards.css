@@ -1,0 +1,20 @@
+.container:hover {
+  background-color: var(--color-primary);
+  opacity: .8;
+}
+
+.content-overlay {
+
+}
+
+.content {
+  opacity: 0;
+  color: var(--color-white);
+  top: 1em;
+  left: 2em;;
+  transition: .5s, ease;
+}
+
+.content:hover {
+  opacity: 1;
+}
