@@ -1,0 +1,42 @@
+footer {
+  background-color: var(--color-black);
+  overflow: hidden;
+}
+
+.footer-content {
+  color: var(--color-white);
+  float: left;
+}
+
+.payment-options {
+  float: right;
+  width: 15%;
+  height: 15%;
+}
+
+.privacy {
+  display: inline-block;
+}
+
+@media screen and (max-width: 60em) {
+
+  .footer-content {
+    text-align: center;
+    float: none;
+  }
+
+  .privacy {
+    text-align: center;
+    float: none;
+  }
+
+  .payment-options {
+    display: block;
+    float: none;
+    width: 25%;
+    height: 25%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}

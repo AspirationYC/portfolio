@@ -8,6 +8,7 @@ header {
   height: 100%;
   display: table;
   float: left;
+  padding-left: .5em;
 }
 
 .logo-container a {
@@ -16,23 +17,31 @@ header {
   height: 100%;
   vertical-align: middle;
   font-family: Acme, sans-serif;
+  text-decoration: none;
 }
 
-.masthead {
-  overflow: hidden;
-  background-color: #000;
-  padding: 10px 0 0;
-}
-
-.masthead a {
-  float: left;
-  text-align: center;
-  padding: 12px;
-  border-radius: 4px;
+.logo-container a:hover {
+  color: var(--color-hover);
 }
 
 .header-nav {
+  float: right;
   font-family: Acme, sans-serif;
+  height: 100%;
+}
+
+.header-nav li {
+  display: table;
+  float: right;
+  height: 100%;
+}
+
+.header-nav a {
+  color: var(--color-white);
+  text-decoration: none;
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
 }
 
 .header-nav a:hover {
@@ -41,23 +50,10 @@ header {
 
 .header-nav a.active {
   background-color: var(--color-primary);
-  color: #fff;
+  color: var(--color-white);
 }
 
-.header-nav {
-  float: right;
-}
-
-.header-nav ul {
-  margin-bottom: 0;
-}
-
-@media screen and (max-width: 500px) {
-  .masthead a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
+@media screen and (max-width: 60em) {
   .header-nav {
     float: none;
   }
