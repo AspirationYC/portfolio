@@ -7,11 +7,11 @@
       <span class="icon-label">Yu-Han Chang's Portfolio</span>
     </a>
   </div>
-  <nav>
-    <ul class="list-group-inline header-nav">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Works</a></li>
-      <li><a href="#">About</a></li>
-    </ul>
-  </nav>
+  <div role="navigation" class="header-nav">
+  <ul class="list-group-inline">
+    <li class="valign-middle"><a aria-label="Go to home page" class="gutter-1-2 island-1-2 {% if.page.highlight_nav == 'index' %}active{% endif %}" href="/index/">Home</a></li>
+    <li class="valign-middle"><a aria-label="View my artworks"class="gutter-1-2 island-1-2 {% if.page.highlight_nav == 'products' %}active{% endif %}" href="#">Works</a></li>
+    <li class="valign-middle"><a aria-label="Go to about me" class="gutter-1-2 island-1-2 {% if.page.highlight_nav == 'checkout' %}active{% endif %}" href="#">About</a></li>
+  </ul>
+</div>
 </header>

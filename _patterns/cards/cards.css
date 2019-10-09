@@ -1,20 +1,20 @@
 .container:hover {
   background-color: var(--color-primary);
-  opacity: .8;
+  opacity: .5;
 }
 
-.content-overlay {
-
+.content h6 {
+  color: var(--color-primary);
 }
 
 .content {
   opacity: 0;
-  color: var(--color-white);
-  top: 1em;
-  left: 2em;;
+  color: var(--color-primary);
+  top: 25em;
+  left: 15em;
   transition: .5s, ease;
 }
 
-.content:hover {
+.container:hover .content {
   opacity: 1;
 }

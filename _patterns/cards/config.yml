@@ -1,0 +1,16 @@
+title: "Image Cards"
+description: |
+  Image cards are cropped image of my artworks. Each artwork has a different image and it will bring you to view the details of the artwork.
+patterns:
+  broadcast-package-card:
+    title: "Broadcast Package's card"
+    description: |
+      The image-card for Broadcast Package project.
+  descriptive-word-card:
+    title: "Descriptive Word's card"
+    description: |
+      The image-card for Descriptive Word project.
+  looping-gif-card:
+    title: "Looping GIF's card"
+    description: |
+      The image card for Looping GIF project.
