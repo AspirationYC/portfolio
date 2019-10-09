@@ -1,0 +1,13 @@
+title: "Navigations"
+description: |
+  Navigations help the user to navigate more efficiently.
+
+patterns:
+    back:
+      title: "Back"
+      description: |
+        Go to previous page. Usually located at the top left of the page.
+    back-to-top:
+      title: "Back to top"
+      description: |
+        Back to the top of the page. Usually located at the bottom left or right of the page.

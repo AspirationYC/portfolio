@@ -2,3 +2,14 @@
   border: 3px solid var(--color-primary);
   padding: 1em;
 }
+
+.for-fun {
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+  padding: 1.5em;
+  border-style: double;
+}
+
+.for-fun h1 {
+  color: var(--color-white);
+}

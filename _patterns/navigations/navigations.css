@@ -1,0 +1,8 @@
+.current {
+  background-color: var(--color-hover);
+  color: var(--color-white);
+}
+
+.go-back {
+  font-family: Acme, sans-serif;
+}

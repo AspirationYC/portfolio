@@ -4,6 +4,10 @@ description: |
 
 patterns:
   about-me:
-    title: "About me & contact-info"
+    title: "About me & contact info"
     description: |
-      It is only required on the homepage.
+      My introduction about why I want to be a motion designer. Below my intro, it is my contact information. It is only required on the homepage.
+  for-fun-info:
+    title: "For Fun Page"
+    description: |
+      A paragraph that explains the page purpose. You can find this page whenever an user click on Descriptive Word, Looping GIF, or any funny project.
