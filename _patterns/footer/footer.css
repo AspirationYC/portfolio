@@ -1,5 +1,5 @@
 footer {
-  background-color: var(--color-black);
+  background-color: var(--color-primary);
   overflow: hidden;
 }
 
@@ -8,14 +8,8 @@ footer {
   float: left;
 }
 
-.payment-options {
-  float: right;
-  width: 15%;
-  height: 15%;
-}
-
-.privacy {
-  display: inline-block;
+small {
+  font-family: Acme, sans-serif;
 }
 
 @media screen and (max-width: 60em) {
@@ -23,20 +17,6 @@ footer {
   .footer-content {
     text-align: center;
     float: none;
-  }
-
-  .privacy {
-    text-align: center;
-    float: none;
-  }
-
-  .payment-options {
-    display: block;
-    float: none;
-    width: 25%;
-    height: 25%;
-    margin-left: auto;
-    margin-right: auto;
   }
 
 }

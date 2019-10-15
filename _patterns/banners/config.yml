@@ -6,11 +6,11 @@ patterns:
     title: "Broadcast Package's banner"
     description: |
       The banner for Broadcast Package project.
-  descriptive-word:
+  descriptive-word-banner:
     title: "Descriptive Word's banner"
     description: |
       The banner for Descriptive Word project.
-  looping-gif:
+  looping-gif-banner:
     title: "Looping GIF's banner"
     description: |
       The banner for Looping GIF project.
