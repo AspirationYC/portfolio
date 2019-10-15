@@ -17,3 +17,6 @@ patternbot:
       By using the colour theory, I want the colours to look harmonize so I'm going for split complementary. Therefore, the second colour is orange.
     colors.accent: |
       The third colour of the split complementary is orange-red. As it stated, it is only going be used when something is hovered. In addition, the text will be black or white.
+  layouts:
+    default: |
+      The default layout should be used for almost every page, it includes the website's primary header and footer.

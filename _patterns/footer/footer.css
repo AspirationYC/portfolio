@@ -8,6 +8,10 @@ footer {
   float: left;
 }
 
+.footer-text {
+  padding-top: .5em;
+}
+
 small {
   font-family: Acme, sans-serif;
 }
