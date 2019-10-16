@@ -9,6 +9,8 @@ patternbot:
   colors:
     background: "--color-black"
     accent: "--color-primary"
+  patterns:
+    brand.logos: "--color-secondary"
   rationales:
     typefaces.primary: |
       Acme is a display typeface inspired by the visual language classic of cartoons and comics. It is sort of representing motion and animation. It is mainly used for headings.
