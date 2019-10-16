@@ -35,9 +35,10 @@
   .masthead a {
     float: none;
     display: block;
-    text-align: left;
+    text-align: center;
   }
   .header-nav {
     float: none;
+    text-align: center;
   }
 }

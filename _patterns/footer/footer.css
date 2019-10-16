@@ -5,11 +5,10 @@ footer {
 
 .footer-content {
   color: var(--color-white);
-  float: left;
 }
 
-.footer-text {
-  padding-top: .5em;
+.social-media {
+  float: left;
 }
 
 small {
@@ -18,9 +17,14 @@ small {
 
 @media screen and (max-width: 60em) {
 
-  .footer-content {
+  .social-media {
     text-align: center;
     float: none;
+  }
+
+  .footer-text {
+    float: none;
+    padding-top: .5em;
   }
 
 }
