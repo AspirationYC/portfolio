@@ -5,11 +5,11 @@
 
 .for-fun {
   background-color: var(--color-secondary);
-  color: var(--color-white);
+  color: var(--color-black);
   padding: 1.5em;
   border-style: double;
 }
 
 .for-fun h1 {
-  color: var(--color-white);
+  color: var(--color-black);
 }

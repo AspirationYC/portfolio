@@ -1,9 +1,10 @@
 .btn {
   background-color: var(--color-secondary);
   border-style: none;
-  color: var(--color-white);
+  color: var(--color-black);
+  font-family: Raleway, sans-serif;
 }
 
 .btn:hover {
-  background-color: var(--color-hover);
+  background-color: var(--color-accent);
 }

@@ -1,11 +1,17 @@
 :root {
   --color-primary: #32c0df;
   --color-secondary: #d7970e;
-  --color-hover: #d6320c;
+  --color-accent: #AF1108;
   --color-black: #000;
   --color-white: #fff;
   --font-primary: Acme, sans-serif;
   --font-secondary: Raleway, sans-serif;
+}
+
+html {
+  font-family: var(--font-secondary);
+  background-color: var(--color-black);
+  color: var(--color-white);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -15,13 +21,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ul:hover, ol:hover, dl:hover {
-  color: var(--color-hover);
+  color: var(--color-primary);
 }
 
 a {
-  color: var(--color-black);
+  color: var(--color-white);
 }
 
 a:hover {
-  color: var(--color-hover);
+  color: var(--color-primary);
 }
