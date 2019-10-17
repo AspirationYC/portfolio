@@ -1,10 +1,11 @@
 footer {
-  background-color: var(--color-primary);
+  background-color: var(--color-black);
   overflow: hidden;
 }
 
 .footer-content {
-  color: var(--color-white);
+  color: var(--color-primary);
+  border-top: 1px solid var(--color-primary);
 }
 
 .social-media {

@@ -1,6 +1,6 @@
 .masthead {
   overflow: hidden;
-  background-color: var(--color-primary);
+  background-color: var(--color-black);
   width: 100%;
 }
 
@@ -15,12 +15,16 @@
   margin-bottom: 0;
 }
 
+.header-logo a:hover {
+  color: var(--color-primary);
+}
+
 .header-nav a:hover {
-  color: var(--color-black);
+  color: var(--color-primary);
 }
 
 .header-nav a.active {
-  color: var(--color-black);
+  color: var(--color-primary);
 }
 
 .header-nav {
