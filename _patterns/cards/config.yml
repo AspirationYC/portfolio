@@ -14,3 +14,7 @@ patterns:
     title: "Looping GIF's card"
     description: |
       The image card for Looping GIF project.
+  ui-animation-card:
+    title: "UI Animation's card"
+    description: |
+      The image card for UI Animation project.

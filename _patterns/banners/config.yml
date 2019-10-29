@@ -14,3 +14,7 @@ patterns:
     title: "Looping GIF's banner"
     description: |
       The banner for Looping GIF project.
+  ui-animation-banner:
+    title: "UI Animation's banner"
+    description: |
+      The banner for UI Animation project.
