@@ -2,11 +2,12 @@
 layout: default
 title: Home
 highlight_nav: 'index'
+desc: sdd
 ---
 
 <div class="island push-1-2">
   <h1>Reel</h1>
-  < video place here >
+  <p>video place here</p>
 </div>
 
 <div class="introduction island push-1-2">
@@ -17,13 +18,16 @@ highlight_nav: 'index'
   <h1>Portfolio Works</h1>
   <div class="grid">
     <div class="unit s-1 m-1-2 l-1-3 island-1-4">
-      {% pattern cards/broadcast-package-card %}
+      {% pattern cards/broadcast-package-card url="/broadcast-package/" %}
     </div>
     <div class="unit s-1 m-1-2 l-1-3 island-1-4">
       {% pattern cards/descriptive-word-card %}
     </div>
     <div class="unit s-1 m-1-2 l-1-3 island-1-4">
       {% pattern cards/looping-gif-card %}
+    </div>
+    <div class="unit s-1 m-1-2 l-1-3 island-1-4">
+      {% pattern cards/ui-animation-card %}
     </div>
   </div>
 </div>
