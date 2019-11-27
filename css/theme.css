@@ -17,7 +17,10 @@ html {
 h1, h2, h3, h4, h5, h6 {
   color: var(--color-primary);
   font-family: var(--font-primary);
+}
 
+h1, h2, h3, h4, h5, h6:focus {
+  outline: var(--color-white);
 }
 
 ul:hover, ol:hover, dl:hover {
