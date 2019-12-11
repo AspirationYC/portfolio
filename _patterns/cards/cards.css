@@ -16,7 +16,7 @@
   color: var(--color-primary);
   border: 8px solid var(--color-primary);
   padding: 1em;
-  bottom: 5em;
+  bottom: 0;
   left: 0;
   transition: .5s, ease;
   width: 100%;
